@@ -7,11 +7,14 @@ using namespace std;
 #define file        freopen("input.txt","r",stdin);\
                     freopen("output.txt","w",stdout);
 #define pa(x)       for(auto ww:x) cout<<ww<<sp;
+#define ia(v)       for(auto &x:v) cin>>x;
 #define rforr(x,y)  for(int a=y-1;a>=x;a--)
 #define forr(x,y)   for(int a=x; a<y; a++)
 #define mem(a,x)    memset(a,x,sizeof(a));
-#define all(x)      x.bn,x.ed
+#define pyesr       cout<<"YES\n";return;
+#define pnor        cout<<"NO\n";return;
 #define bss(x,k)    bs(all(x),k)
+#define all(x)      x.bn,x.ed
 #define vs          vector<string>
 #define bs          binary_search
 #define vc          vector<char>
@@ -31,7 +34,7 @@ using namespace std;
 #define spc         cout<<" ";
 #define pno         cout<<"NO\n";
 #define pyes        cout<<"YES\n";
-#define p(x)        cout<<x<<"\n";
+#define pr(x)       cout<<x<<"\n";
 #define pd(x)       cout<<x<<" ";
 #define ll          long long
 #define mii         map<int,int>
@@ -59,8 +62,8 @@ void solve()
 
 int main()
 {
-    
-   // solve2(); return 0;
+    file
+    //solve2(); return 0;
     b_i_b int t=1;
     cin>>t;
     while(t--)
